@@ -1,0 +1,104 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 20s linear;
+  height: 80px;
+}
+
+.App-header {
+  background-color: #222;
+  height: 150px;
+  padding: 20px;
+  color: white;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+@keyframes App-logo-spin {
+  from { transform: rotate(0deg); }
+  to { transform: rotate(360deg); }
+}
+
+.main-container {
+  float: left;
+  padding: 10px 30px;
+  border: 1px solid #8080803d;
+  max-width: 300px;
+  margin: 10px 5px;
+  border-radius: 2px;
+}
+
+.main-container .title {
+  margin-bottom: 5px;
+}
+
+.breed-group.btn {
+  height: 30px;
+  width: 200px;
+  background-color: #009fff;
+  cursor: pointer;
+}
+
+.breed-group-name {
+  color: white;
+  padding: 3px;
+}
+
+.breeds-number {
+  border-radius: 3px;
+  background-color: white;
+  color: black;
+  font-size: x-small;
+  padding: 0 3px;
+}
+
+.breeds-container {
+  padding: 10px;
+}
+
+.breed-details-container {
+  float: left;
+  max-width: 300px;
+  margin: 5px;
+}
+
+.breed-details-container .back-button {
+  position: absolute;
+  top: 0;
+  border-style: none;
+  left: 0;
+  background: transparent;
+  font-weight: bold;
+  padding-top: 3px;
+  cursor: pointer;
+}
+
+.breed-details-container .breed-name{
+  text-transform: capitalize;
+  padding-bottom: 10px;
+}
+
+.breed-details-container .image-1 {
+  display: block;
+  padding: 10px 15px 3px 15px;
+  width: 250px;
+  max-height: 300px;
+}
+
+.breed-details-container .image-2 {
+  display: block;
+  padding: 10px 15px 3px 15px;
+  width: 250px;
+  max-height: 300px;
+}
+
+.breed-details-container .details-box {
+  margin-top: 30px;
+  padding-top: 10px;
+  border: 1px solid #8080803d;;
+  border-radius: 2px;
+}
